@@ -1,5 +1,5 @@
 # OxphosMap
-Mapping logFCs onto OXPHOS complexes
+Mapping logFCs onto one of 5 OXPHOS complexes using PyMOL. 
 
 # Arguments
 
