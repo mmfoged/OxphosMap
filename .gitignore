@@ -1,7 +1,8 @@
 *
-.DS_Store
+
 !*.py
 !README.txt
 !.gitignore
-!Data/
-!Data/**
+!Data/All_complexes.csv
+!Data/data_example_processed.csv
+!Data/data_example.csv
