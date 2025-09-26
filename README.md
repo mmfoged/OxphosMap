@@ -10,13 +10,13 @@ Mapping logFCs onto OXPHOS complexes
 
 ## Example: 
 
-pymol OXPHOSVisualize.py -- -l 0.5 -p ./Data/data_example.csv -s ./Data/All_complexes.csv  -c CI
+    pymol OXPHOSVisualize.py -- -l 0.5 -p ./Data/data_example.csv -s ./Data/All_complexes.csv  -c CI
 
 # Required:
 
     pandas
     matplotlib
-    agparse
+    argparse
     pathlib
     PyMOL open-source  
 
