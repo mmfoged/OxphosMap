@@ -26,8 +26,8 @@ Install PyMOL via homebrew
 
 Get the path of the python interpreter used for PyMOL. Open PyMOL and type:
 
-import sys
-print(sys.executable)
+    import sys
+    print(sys.executable)
 
 This gives a path like /opt/homebrew/Cellar/pymol/3.1.0_1/libexec/bin/python
 
