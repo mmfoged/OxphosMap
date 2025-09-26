@@ -2,4 +2,5 @@
 !*.py
 !README.txt
 !.gitignore
-!./Data
+!Data/
+!Data/**
