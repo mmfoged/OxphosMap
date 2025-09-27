@@ -1,5 +1,5 @@
 # OxphosMap
-Mapping logFCs onto one of 5 OXPHOS complexes using PyMOL. 
+Mapping logFCs onto one of 5 OXPHOS complexes using PyMOL. Upregulated and downregulated genes/proteins are represented with red and blue, respectively. 
 
 # Arguments
 
@@ -11,6 +11,10 @@ Mapping logFCs onto one of 5 OXPHOS complexes using PyMOL.
 ## Example: 
 
     pymol OxphosMap.py -- -l 0.5 -p ./Data/data_example.csv -s ./Data/All_complexes.csv  -c CI
+
+All_complexes.csv links the structure subunits with GeneIDs. 
+
+Replace data_example.csv with DE data. 
 
 # Dependencies:
 
