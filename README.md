@@ -10,7 +10,7 @@ Mapping logFCs onto one of 5 OXPHOS complexes using PyMOL.
 
 ## Example: 
 
-    pymol OXPHOSVisualize.py -- -l 0.5 -p ./Data/data_example.csv -s ./Data/All_complexes.csv  -c CI
+    pymol OxphosMap.py -- -l 0.5 -p ./Data/data_example.csv -s ./Data/All_complexes.csv  -c CI
 
 # Required:
 
@@ -18,7 +18,7 @@ Mapping logFCs onto one of 5 OXPHOS complexes using PyMOL.
     matplotlib
     argparse
     pathlib
-    PyMOL open-source  
+    PyMOL (open-source)
 
 # instructions (Mac)
 

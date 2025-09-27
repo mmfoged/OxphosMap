@@ -233,6 +233,9 @@ def main():
     logfc_limit = args.logfc_limit
     complex_value = args.complex
 
+    if complex_value not in ["CI", "CII", "CIII", "CIV", "CV"]:
+        raise ValueError("error: invalid complex name")
+
     # Print information about the input data
     print(f"\n\nStructure metadata:\n{structure_info_path}\n\nFile path:\n{file_path}\n\nLogFC limit:\n{logfc_limit}\n\n")
 
