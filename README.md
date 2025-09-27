@@ -20,7 +20,7 @@ Mapping logFCs onto one of 5 OXPHOS complexes using PyMOL.
     pathlib
     PyMOL (open-source)
 
-# instructions (Mac)
+# Instructions (Mac)
 
 Install PyMOL via homebrew
 
