@@ -12,7 +12,7 @@ Mapping logFCs onto one of 5 OXPHOS complexes using PyMOL.
 
     pymol OxphosMap.py -- -l 0.5 -p ./Data/data_example.csv -s ./Data/All_complexes.csv  -c CI
 
-# Required:
+# Dependencies:
 
     pandas
     matplotlib
